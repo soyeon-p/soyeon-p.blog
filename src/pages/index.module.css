@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "IAMAPLAYER";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeferiPoint-BlackObliqueA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackObliqueA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --white-color: #fff;
+  --yellow-color: rgb(252, 243, 189);
+  --black-color: rgb(0, 0, 0);
+  --pink-color: rgb(233, 148, 148);
+  --purple-color: rgb(163, 140, 184);
+  --gray-color: rgb(190, 186, 193);
+  --navy-color: rgb(22, 41, 54);
+  --font-large: 100px;
+  --font-midiume: 50px;
+  --font-small: 25px;
+  --font-family: sans-serif;
+  --align-center: center;
+}
+
+.box {
+  padding: 0px;
+  margin: 0px;
+  color: var(--black-color);
+  height: 500px;
+  background-image: linear-gradient(to bottom, #bf9df8, rgb(253, 253, 253));
+}
+
+body {
+  margin: 0px;
+}
+.navmenu {
+  display: flex;
+  margin-left: 2100px;
+  margin-top: 10px;
+}
+.menu {
+  margin-left: 20px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "IAMAPLAYER";
+}
+.menu:hover {
+  color: gray;
+}
+.menu2:hover {
+  color: gray;
+}
+.menu2 {
+  margin-left: 50px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "IAMAPLAYER";
+}
+.name {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: var(--white-color);
+  font-family: "IAMAPLAYER";
+}
+.so {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-size: 120px;
+  font-family: "LeferiPoint-BlackObliqueA";
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.nav {
+  display: flex;
+}
+.about {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.title {
+  margin-left: 46%;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.inform2 {
+  margin-left: 40px;
+  font-size: 25px;
+  font-family: "IAMAPLAYER";
+  margin-top: 45px;
+}
+.st {
+  font-size: 40px;
+  font-family: "LeferiPoint-BlackObliqueA";
+}
+.lay {
+  margin-top: 70px;
+  margin-left: 700px;
+}
+.line {
+  background-color: rgba(39, 39, 39, 0.116);
+  height: 3px;
+  width: 65%;
+  margin-left: 455px;
+}
+.stack {
+  font-size: 30px;
+  margin-top: 40px;
+}
+li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.design {
+  height: 10px;
+}
+.myid {
+  background: #fff7ae;
+}
+.stack {
+  width: 600px;
+}
